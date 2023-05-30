@@ -36,6 +36,15 @@ h3{
     font-size: 24px;
     margin: 0;
 }
+#unique-h3{
+    width: 391px;
+    margin: 0 auto;
+}
+#active-h3{
+    border: 1px dotted black;
+    width: 447px;
+    margin: 0 auto;
+}
 h4 {
     font-size: 16px;
     margin: 0;
