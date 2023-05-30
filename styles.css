@@ -1,0 +1,163 @@
+/*
+
+--atomic-tangerine: #F18952ff;
+--tiffany-blue: #93D1BCff;
+--night: #151611ff;
+--light-blue: #AAC2CAff;
+--moonstone: #5CA0B7ff;
+--drab-dark-brown: #3F3521ff;
+
+google font
+:Hover (bilder in activities)
+new section?
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+    color: #3F3521ff;
+    width: 720px;
+
+}
+
+h1{
+    font-size: 32px;
+    color:rgb(208, 223, 228) ;
+    margin: 0;
+}
+
+h2{
+    color: #151611ff;
+    font-size: 19px;
+    margin: 0;
+}
+
+h3{
+    font-size: 24px;
+    margin: 0;
+}
+h4 {
+    font-size: 16px;
+    margin: 0;
+}
+h5{
+    font-size: 12px;
+    margin: 0;
+    font-weight: 200;
+    color: #151611ff
+}
+
+
+p{
+    font-size: 16px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+
+#hero{
+    background-image: url(images/rathaus.avif);
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+    padding: 120px;
+}
+#hero-dark{
+    background-color: #151611ff;
+    padding: 5px 12px;
+    width: 270px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#hero-light{
+    background-color: rgb(208, 223, 228);
+    padding: 8px 16px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 39px auto 0 auto;
+}
+
+
+#activities{
+    background-color: rgb(208, 223, 228);
+    margin: 0;
+    padding-top: 29px;
+}
+.activities-img{
+    border-radius: 50%;
+    margin-bottom: 22px;
+}
+.activities-container{
+    display:flex;
+    justify-content: center;
+    margin: 0 20px;;
+}
+.activities-container-item{
+    padding-bottom: 0;
+    margin: 34px 13px 22px 13px;
+    width: 200px;
+}
+
+
+#unique{
+    background-color: #151611ff;
+    color: rgb(208, 223, 228);
+    padding: 29px;
+    text-shadow: 0 0 3px #F18952ff;
+}
+#unique-container{
+    display:flex;
+    justify-content: space-around;
+    margin: 50px 0 60px 0;
+}
+#head-unique{
+    margin-top: 10px;
+}
+.unique-container-item{
+    border: 3px solid #F18952ff; 
+    border-radius: 10px;
+}
+#unique-container-item2{
+    border: 3px solid #F18952ff; 
+    width: 100px; 
+    border-radius: 10px;
+}
+#unique-text{
+    width: 650px;
+    margin: 0 auto;
+}
+
+
+#guide-card{
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F18952ff;
+    padding: 23px 13px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #151611ff;
+    color: #151611ff;
+}
+#guide-img{
+    border-radius: 10px;
+    width: 260px;
+    height: 200px;
+    margin: 0 10px;
+    background-image: url(images/buch.jpeg);
+    background-size: cover;
+}
+#guide-img:hover{
+    background-image: url(images/roter-faden.jpg);
+}
+.guide-discription{
+    font-style: italic;
+    margin: 18px 10px 16px 10px;
+    width: 300px;
+}
